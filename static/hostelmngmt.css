@@ -1,0 +1,254 @@
+.home-container {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 91rem;
+    justify-content: center;
+  }
+  .home-image {
+    top: 1px;
+    left: 750px;
+    width: 142px;
+    height: 129px;
+    position: absolute;
+    object-fit: cover;
+  }
+  .home-image1 {
+    top: 101px;
+    right: 0px;
+    width: 1600px;
+    height: 94px;
+    position: absolute;
+    object-fit: cover;
+  }
+  .home-text {
+    top: 40px;
+    right: 50px;
+    position: absolute;
+    font-family: Merriweather;
+  }
+  .home-container1 {
+    top: 155px;
+    flex: 0 0 auto;
+    left: 100px;
+    right: 100px;
+    width: 1400px;
+    height: 100px;
+    display: flex;
+    position: absolute;
+    box-shadow: 0px 20px 10px 5px #d4d4d4;
+    align-items: flex-start;
+    background-color: #ffffff;
+  }
+  .home-text01 {
+    top: 190px;
+    left: 150px;
+    position: absolute;
+    font-size: 20px;
+    font-style: italic;
+    font-family: Georgia;
+    font-weight: 400;
+  }
+  .home-text04 {
+    top: 190px;
+    left: 450px;
+    position: absolute;
+    font-size: 20px;
+    font-style: italic;
+    font-family: Georgia;
+    font-weight: 400;
+  }
+  .home-text07 {
+    top: 190px;
+    left: 750px;
+    position: absolute;
+    font-size: 20px;
+    font-style: italic;
+    font-family: Georgia;
+    font-weight: 400;
+  }
+  .home-text10 {
+    top: 190px;
+    right: 150px;
+    position: absolute;
+    font-size: 20px;
+    font-style: italic;
+    font-family: Georgia;
+    font-weight: 400;
+  }
+  .home-text13 {
+    top: 192px;
+    left: 1020px;
+    position: absolute;
+    font-size: 20px;
+    font-style: italic;
+    font-family: Georgia;
+    font-weight: 400;
+  }
+  .home-image2 {
+    top: 312px;
+    left: 472px;
+    width: 250px;
+    position: absolute;
+    object-fit: cover;
+    border-radius: var(--dl-radius-radius-round);
+  }
+  .home-image3 {
+    top: 580px;
+    left: 100px;
+    width: 250px;
+    position: absolute;
+    object-fit: cover;
+    border-radius: var(--dl-radius-radius-round);
+  }
+  .home-image4 {
+    top: 860px;
+    left: 100px;
+    width: 250px;
+    position: absolute;
+    object-fit: cover;
+    border-radius: var(--dl-radius-radius-round);
+  }
+  .home-image5 {
+    top: 580px;
+    right: 500px;
+    width: 250px;
+    position: absolute;
+    object-fit: cover;
+    border-radius: var(--dl-radius-radius-round);
+  }
+  .home-image6 {
+    top: 860px;
+    right: 500px;
+    width: 250px;
+    position: absolute;
+    object-fit: cover;
+    border-radius: var(--dl-radius-radius-round);
+  }
+  .home-image7 {
+    top: 1140px;
+    left: 100px;
+    width: 250px;
+    bottom: 0px;
+    position: absolute;
+    object-fit: cover;
+    border-radius: var(--dl-radius-radius-round);
+  }
+  .home-image8 {
+    top: 1140px;
+    right: 500px;
+    width: 250px;
+    position: absolute;
+    object-fit: cover;
+    border-radius: var(--dl-radius-radius-round);
+  }
+  .home-text16 {
+    top: 670px;
+    left: 430px;
+    position: absolute;
+    font-size: 35px;
+    text-align: center;
+    font-family: Merriweather;
+  }
+  .home-text17 {
+    top: 951px;
+    left: 430px;
+    position: absolute;
+    font-size: 35px;
+    text-align: center;
+    font-family: Merriweather;
+  }
+  .home-text18 {
+    top: 957px;
+    right: 140px;
+    position: absolute;
+    font-size: 35px;
+    text-align: center;
+    font-family: Merriweather;
+  }
+  .home-text19 {
+    top: 670px;
+    right: 173px;
+    position: absolute;
+    font-size: 35px;
+    text-align: center;
+    font-family: Merriweather;
+  }
+  .home-text20 {
+    left: 430px;
+    bottom: 171px;
+    position: absolute;
+    font-size: 35px;
+    text-align: center;
+    font-family: Merriweather;
+  }
+  .home-text21 {
+    right: 140px;
+    bottom: 171px;
+    position: absolute;
+    font-size: 35px;
+    text-align: center;
+    font-family: Merriweather;
+  }
+  .home-text22 {
+    top: 392px;
+    left: 838px;
+    position: absolute;
+    font-size: 40px;
+    text-align: center;
+    font-family: Merriweather;
+  }
+  .home-text23 {
+    top: 436px;
+    left: 826px;
+    position: absolute;
+    font-size: 25px;
+    text-align: center;
+  }
+  .home-text26 {
+    top: 710px;
+    left: 435px;
+    position: absolute;
+    font-size: 25px;
+    text-align: center;
+  }
+  .home-text29 {
+    top: 992px;
+    left: 437px;
+    position: absolute;
+    font-size: 25px;
+    text-align: center;
+  }
+  .home-text32 {
+    top: 997px;
+    right: 184px;
+    position: absolute;
+    font-size: 25px;
+    text-align: center;
+  }
+  .home-text35 {
+    right: 213px;
+    bottom: 111px;
+    position: absolute;
+    font-size: 25px;
+    text-align: center;
+  }
+  .home-text39 {
+    left: 515px;
+    bottom: 116px;
+    position: absolute;
+    font-size: 25px;
+    text-align: center;
+  }
+  .home-text43 {
+    top: 710px;
+    right: 183px;
+    position: absolute;
+    font-size: 25px;
+    text-align: center;
+  }
+  

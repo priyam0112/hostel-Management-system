@@ -1,0 +1,118 @@
+.home-container {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .home-image {
+    top: 1px;
+    left: 750px;
+    width: 142px;
+    height: 129px;
+    position: absolute;
+    object-fit: cover;
+  }
+  .home-image1 {
+    top: 101px;
+    right: 0px;
+    width: 1600px;
+    height: 94px;
+    position: absolute;
+    object-fit: cover;
+  }
+  .home-text {
+    top: 40px;
+    right: 50px;
+    position: absolute;
+    font-family: Merriweather;
+  }
+  .home-container1 {
+    top: 155px;
+    flex: 0 0 auto;
+    left: 100px;
+    right: 100px;
+    width: 1300px;
+    height: 100px;
+    display: flex;
+    position: absolute;
+    box-shadow: 0px 20px 10px 5px #d4d4d4;
+    align-items: flex-start;
+    background-color: #ffffff;
+  }
+  .home-text01 {
+    top: 190px;
+    left: 150px;
+    position: absolute;
+    font-size: 20px;
+    font-style: italic;
+    font-family: Georgia;
+    font-weight: 400;
+  }
+  .home-text04 {
+    top: 190px;
+    left: 450px;
+    position: absolute;
+    font-size: 20px;
+    font-style: italic;
+    font-family: Georgia;
+    font-weight: 400;
+  }
+  .home-text07 {
+    top: 190px;
+    left: 750px;
+    position: absolute;
+    font-size: 20px;
+    font-style: italic;
+    font-family: Georgia;
+    font-weight: 400;
+  }
+  .home-text10 {
+    top: 190px;
+    right: 150px;
+    position: absolute;
+    font-size: 20px;
+    font-style: italic;
+    font-family: Georgia;
+    font-weight: 400;
+  }
+  .home-text13 {
+    top: 192px;
+    left: 1020px;
+    position: absolute;
+    font-size: 20px;
+    font-style: italic;
+    font-family: Georgia;
+    font-weight: 400;
+  }
+  .home-image2 {
+    top: 389px;
+    left: 735px;
+    width: 673px;
+    height: 406px;
+    position: absolute;
+    object-fit: cover;
+  }
+  .home-text16 {
+    top: 465px;
+    left: 128px;
+    position: absolute;
+    font-size: 80px;
+    font-style: normal;
+    font-family: Merriweather;
+    font-weight: 700;
+  }
+  .home-text17 {
+    top: 571px;
+    left: 133px;
+    color: #353535;
+    position: absolute;
+    font-size: 20px;
+    font-style: normal;
+    font-family: Georgia;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+  

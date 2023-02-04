@@ -1,0 +1,220 @@
+.home-container {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 0rem;
+    justify-content: center;
+  }
+  .home-image {
+    top: 1px;
+    left: 750px;
+    width: 142px;
+    height: 129px;
+    position: absolute;
+    object-fit: cover;
+  }
+  .home-image1 {
+    top: 101px;
+    right: 0px;
+    width: 1600px;
+    height: 94px;
+    position: absolute;
+    object-fit: cover;
+  }
+  .home-text {
+    top: 40px;
+    right: 50px;
+    position: absolute;
+    font-family: Merriweather;
+  }
+  .home-container1 {
+    top: 155px;
+    flex: 0 0 auto;
+    left: 100px;
+    right: 100px;
+    width: 1400px;
+    height: 100px;
+    display: flex;
+    position: absolute;
+    box-shadow: 0px 20px 10px 5px #d4d4d4;
+    align-items: flex-start;
+    background-color: #ffffff;
+  }
+  .home-text01 {
+    top: 190px;
+    left: 150px;
+    position: absolute;
+    font-size: 20px;
+    font-style: italic;
+    font-family: Georgia;
+    font-weight: 400;
+  }
+  .home-text04 {
+    top: 190px;
+    left: 450px;
+    position: absolute;
+    font-size: 20px;
+    font-style: italic;
+    font-family: Georgia;
+    font-weight: 400;
+  }
+  .home-text07 {
+    top: 190px;
+    left: 750px;
+    position: absolute;
+    font-size: 20px;
+    font-style: italic;
+    font-family: Georgia;
+    font-weight: 400;
+  }
+  .home-text10 {
+    top: 190px;
+    right: 150px;
+    position: absolute;
+    font-size: 20px;
+    font-style: italic;
+    font-family: Georgia;
+    font-weight: 400;
+  }
+  .home-text13 {
+    top: 192px;
+    left: 1020px;
+    position: absolute;
+    font-size: 20px;
+    font-style: italic;
+    font-family: Georgia;
+    font-weight: 400;
+  }
+  .home-image2 {
+    left: 114px;
+    width: 593px;
+    bottom: 45px;
+    height: 420px;
+    position: absolute;
+    object-fit: cover;
+  }
+  .home-text16 {
+    top: 315px;
+    left: 990px;
+    position: absolute;
+    font-size: 30px;
+    font-family: Merriweather;
+  }
+  .home-text17 {
+    top: 420px;
+    left: 825px;
+    position: absolute;
+    font-size: 20px;
+    font-family: Georgia;
+  }
+  .home-text18 {
+    top: 480px;
+    left: 825px;
+    position: absolute;
+    font-size: 20px;
+    font-family: Georgia;
+  }
+  .home-text19 {
+    top: 540px;
+    left: 825px;
+    position: absolute;
+    font-size: 20px;
+    font-family: Georgia;
+  }
+  .home-text20 {
+    top: 600px;
+    left: 825px;
+    position: absolute;
+    font-size: 20px;
+    font-family: Georgia;
+  }
+  /* .home-textinput {
+    top: 414px;
+    left: 1020px;
+    width: 400px;
+    position: absolute;
+  }
+  .home-textinput1 {
+    top: 474px;
+    left: 1020px;
+    width: 400px;
+    position: absolute;
+  }
+  .home-textinput2 {
+    top: 534px;
+    left: 1020px;
+    width: 400px;
+    height: auto;
+    position: absolute;
+  } */
+  .home-select {
+    top: 647px;
+    left: 1000px;
+    width: 88px;
+    height: 38px;
+    position: absolute;
+    border-color: var(--dl-color-gray-black);
+    border-width: 1px;
+    border-radius: var(--dl-radius-radius-radius4);
+  }
+  .home-button {
+    top: 689px;
+    left: 1126px;
+    width: 168px;
+    height: 59px;
+    position: absolute;
+    padding-top: 19px;
+    padding-left: 54px;
+    border-radius: 25px;
+    padding-right: var(--dl-space-space-fourunits);
+    padding-bottom: 0px;
+    background-color: #d4a983;
+  }
+  .home-textinput1 {
+    top: 365px;
+    left: 1000px;
+    width: 400px;
+    position: absolute;
+  }
+  .home-textinput2 {
+    top: 415px;
+    left: 1000px;
+    width: 400px;
+    position: absolute;
+  }
+  .home-textinput3 {
+    top: 465px;
+    left: 1000px;
+    width: 400px;
+    position: absolute;
+  }
+  .home-textinput4 {
+    top: 515px;
+    left: 1000px;
+    width: 400px;
+    position: absolute;
+  }
+  .home-textinput5 {
+    top: 565px;
+    left: 1000px;
+    width: 400px;
+    position: absolute;
+  }
+  .home-textinput6 {
+    top: 615px;
+    left: 1000px;
+    width: 400px;
+    position: absolute;
+  }
+  .home-textinput7 {
+    top: 665px;
+    left: 1000px;
+    width: 400px;
+    position: absolute;
+  }
+  .home-text26 {
+    margin-left: -31px;
+  }

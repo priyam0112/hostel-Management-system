@@ -1,0 +1,132 @@
+<!-- 
+Online HTML, CSS and JavaScript editor to run code online.
+-->
+{% with messages = get_flashed_messages() %}
+  {% if messages %}
+    <script type="text/javascript">
+      var m={{ messages|safe }};
+      for(var i=0;i<m.length;i++)
+      {
+        alert(m[i]);
+      }
+    </script>
+  {% endif %}
+{% endwith %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="static/studentbook.css" />
+  <title>Browser</title>
+</head>
+
+<div>
+  <!-- <link href="./home.css" rel="stylesheet" /> -->
+  <div class="home-container">
+    <img
+      alt="image"
+      src="static/images/marina-reich-HYZLZYJfkIk-unsplash.jpg"
+      class="home-image"
+    />
+    <span class="home-text"><a href="{{ url_for('aboutus') }}">About us</a></span>
+    <div class="home-container1"></div>
+    <img
+      alt="image"
+      src="static/images/hostel logo.png"
+      class="home-image1"
+    />
+    <span class="home-text">
+      <span><a href="{{ url_for('studentbook') }}">Student Bookings</a></span>
+      <br />
+    </span>
+    <span class="home-text04">
+      <span><a href="{{ url_for('hostelRooms') }}">Hostel Rooms</a></span>
+      <br />
+    </span>
+    <span class="home-text07">
+      <span><a href="{{ url_for('reserve') }}">PAYEMENT</a></span>
+      <br />
+    </span>
+    <span class="home-text10">
+      <span><a href="{{url_for('contacts') }}">Contacts</a></span>
+      <br />
+    </span>
+    <span class="home-text13">
+      <span><a href="{{url_for('studentinfo') }}">Student Information</a></span>
+      <br />
+    </span>
+    <img
+      alt="pastedImage"
+      src="static/images/hostel logo (1).png"
+      class="home-pasted-image"
+    />
+
+    <form action="{{url_for('studentbook')}}" method = 'post'>
+      <input type="text" name = 'usn' placeholder='USN' class="home-textinput1 input" />
+      <input type="text" name = 'fname' placeholder='Fname' class="home-textinput2 input" />
+      <input type="text" name = 'lname' placeholder='Lname' class="home-textinput3 input" />
+      <input type="number" name = 'sem' placeholder= 'Semester' class="home-textinput4 input" />
+      <input type="text" name = 'pno' placeholder= 'PhoneNo' class="home-textinput5 input" />
+      <input type="text" name = 'Dept' placeholder= 'Department' class="home-textinput6 input" />
+      <input type="text" name = 'year' placeholder= 'Year of Studying' class="home-textinput7 input" />
+    <!-- <select class="home-select">
+      <option value="Option 2">Hostel S</option>
+      <option value="Option 2">Hostel A</option>
+      <option value="Option 3">Hostel B</option>
+      <option value="Option 4">Hostel C</option>
+    </select>
+    <input type="text" name = 'roomno' placeholder= 'Room Number' class="home-textinput7 input" /> -->
+
+    <!-- <input type="text" name = 'pname' placeholder= 'Parents Name' class="home-textinput5 input" />
+    <input type="text" name = 'address' placeholder= 'Address' class="home-textinput6 input" />
+    <input type="text" name = 'hostno' placeholder= 'Hostel No.' class="home-textinput7 input" />
+    <input type="text" name = 'roomno' placeholder= 'Room No' class="home-textinput8 input" /> -->
+    <button class="home-button button2">
+      <span class="home-text26">
+        <span>Submit </span>
+        <br />
+      </span>
+    </button>
+    </form>
+
+
+
+    <div class="visitor">
+      <div class="vishead"> VISITOR'S DETAILS</div>
+      <form action="{{url_for('visitor')}}" method = 'post'>
+        <input type="text" name = 'visname' placeholder='visitor name' class="visname"/>
+        <input type="text" name = 'studentname' placeholder='student Name' class="studentname"/>
+        <input type="text" name = 'intime' placeholder='In Time' class="intime"/>
+        <input type="text" name = 'outtime' placeholder= 'Out Time' class="outtime"/>
+        <input type="text" name = 'pno' placeholder= 'PhoneNo' class="pno"/>
+        <button class="vis_button">
+          <span class="home-text26">
+            <span>Submit </span>
+            <br />
+          </span>
+        </button>
+      <!-- <button class="home-button button1">
+        <span class="home-text27">
+          <span>Submit details</span>
+          <br />
+        </span>
+      </button> -->
+      </form>
+    </div>
+    <!-- <button class="home-button1 button">
+      <span class="home-text29">
+        <span>Reset</span>
+        <br />
+      </span>
+    </button> -->
+  </div>
+</div>
+<!-- automatically in real-time as you write code. -->
+  </p>
+  <script src="script.js"></script>
+</body>
+
+</html>

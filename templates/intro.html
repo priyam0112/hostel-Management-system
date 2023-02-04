@@ -1,0 +1,69 @@
+<!-- 
+Online HTML, CSS and JavaScript editor to run code online.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="static/intro.css" />
+  <title>Browser</title>
+</head>
+
+<body>
+ <div>
+  <!-- <link href="./home.css" rel="stylesheet" /> -->
+  <div class="home-container">
+    <img
+      alt="image"
+      src="static/images/hostel logo.png"
+      class="home-image"
+    />
+    <img
+      alt="image"
+      src="static/images/marina-reich-HYZLZYJfkIk-unsplash.jpg"
+      class="home-image1"
+    />
+    <span class="home-text"><a href="{{ url_for('aboutus') }}">About us</a></span>
+    <div class="home-container1"></div>
+    <span class="home-text01">
+      <span><a href="{{ url_for('studentbook') }}">Student Bookings</a></span>
+      <br />
+    </span>
+    <span class="home-text04">
+      <span><a href="{{ url_for('hostelRooms') }}">Hostel Rooms</a></span>
+      <br />
+    </span>
+    <span class="home-text07">
+      <span><a href="{{ url_for('reserve') }}">PAYEMENT</a></span>
+      <br />
+    </span>
+    <span class="home-text10">
+      <span><a href="{{url_for('contacts') }}">Contacts</a></span>
+      <br />
+    </span>
+    <span class="home-text13">
+      <span><a href="{{url_for('studentinfo') }}">Student Information</a></span>
+      <br />
+    </span>
+    <img
+      alt="image"
+      src="static/images/2sharing2.jpg"
+      class="home-image2"
+    />
+    <span class="home-text16">Welcome!</span>
+    <span class="home-text17">
+      <span>Far far away, far from the home, far from the love</span>
+      <br />
+      <span>and affection of home, students come to build </span>
+      <br />
+      <span>their careers.</span>
+      <br />
+    </span>
+  </div>
+</div>
+
+</body>
+
+</html>
